@@ -7,6 +7,8 @@ Map Visualization: Users' locations are displayed on a dynamic map, with real-ti
 Multiple Users Support: All connected users can see the location of other users as they move.
 User Disconnect Handling: When a user disconnects, their location is removed from the map.
 ![image](https://github.com/user-attachments/assets/10b1398b-0a44-49bd-bde5-b56e7c6d6a0a)
+
+
 Technologies Used:
 Node.js: JavaScript runtime to build the server.
 Express: Web framework to handle HTTP requests.
@@ -14,11 +16,15 @@ Socket.io: Enables real-time communication between the server and clients.
 Leaflet.js: JavaScript library for displaying and interacting with maps.
 Geolocation API: Fetches the user's geographical location.
 EJS: Templating engine for rendering dynamic HTML content.
+
+
 How It Works:
 Geolocation Tracking: Users' locations are tracked in real time using the browser's geolocation API.
 Socket Communication: Socket.io is used to send location data to the server and broadcast it to other clients.
 Map Updates: The location data is used to update a map, where each user is represented by a marker.
 User Disconnects: When a user disconnects, their marker is removed from the map.
+
+
 How to Use:
 Clone the repository.
 Install the required dependencies using npm install.
